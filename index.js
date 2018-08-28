@@ -2,6 +2,9 @@
 function happyHolidays() {
   return "Happy holidays!"
 }
-function happyHolidaysTo(days, holiday) {
+function happyHolidaysTo(name) {
+  return "Happy holidays, ${name}!"
+}
+function happyHolidayTo(days, holiday) {
   console.log("It\'s ${days} days until ${holiday}")
 }
